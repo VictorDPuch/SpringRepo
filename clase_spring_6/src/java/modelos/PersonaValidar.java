@@ -20,7 +20,6 @@ public class PersonaValidar implements Validator {
     public boolean supports(Class<?> type) 
     {
         return Persona.class.isAssignableFrom(type);
-       // return TuClase.class.isAssignableFrom(type);
     }
 
     @Override
